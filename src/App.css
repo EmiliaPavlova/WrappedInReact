@@ -1,0 +1,26 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.App {
+  max-width: 400px;
+  border: 1px solid rgba(20,53,80,0.14);
+  margin: 0 auto 4.5em;
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.08), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.App-intro {
+  padding: 20px 30px;
+  margin: 0;
+  background-color: #1e88e5;
+  color: #fff;
+  font-size: 16px;
+}
+
+.k-input {
+  margin: 30px;
+}
