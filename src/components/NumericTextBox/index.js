@@ -75,7 +75,7 @@ class NumericTextBox extends Component {
 
     callKendoWidgetMethods(methods) {
         Object.keys(methods).forEach((method) => {
-            // this.widgetInstance[method](...methods[method])
+            this.widgetInstance[method](...methods[method])
         }, this);
     }
 
@@ -86,7 +86,9 @@ class NumericTextBox extends Component {
     }
 
     render() {
-        return this.props.children ? this.props.children : <input/>;
+        return this.props.children
+            ? <div className={styles.example}>this.props.childre</div>
+            : <input />;
     }
 };
 

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@telerik/kendo-theme-default": "^1.33.4",
+    "deep-diff": "^0.3.8",
     "kendo-ui-core": "^2017.2.621",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"

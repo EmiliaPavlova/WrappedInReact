@@ -15,19 +15,18 @@ class App extends Component {
                 format: 'c0', //'c', 'p0', 'c0'
                 placeholder: 'Select A Value',
                 min: 0,
-                max: 1,
+                max: 10,
                 step: 0.02
               }}
               methods={{
-                open:[],
                 value:[]
               }}
               events={{
                 change: function() {console.log('value changed')},
                 spin: function() {console.log('number spinned')}
               }}
-              unbindEvents={[]}
-              triggerEvents={['open']} />
+              triggerEvents={['onFocus']}
+              unbindEvents={['select']} />
           </div>
       </div>
     );
