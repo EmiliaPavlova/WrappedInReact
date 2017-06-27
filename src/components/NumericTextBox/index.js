@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import deepDiff from 'deep-diff';
-// import $ from 'jquery';
 import kendo from 'kendo-ui-core/js/kendo.numerictextbox.js';
-
 import styles from '@telerik/kendo-theme-default/styles/example/main.d.ts';
 
 class NumericTextBox extends Component {
@@ -79,16 +77,19 @@ class NumericTextBox extends Component {
         }, this);
     }
 
-    shouldComponentUpdate() {return false;}
+    shouldComponentUpdate() { return false; }
 
     componentWillUnmount() {
         this.widgetInstance.destroy();
     }
 
     render() {
-        return this.props.children
-            ? <div className={styles.example}>this.props.childre</div>
-            : <input />;
+        debugger;
+        return (
+            <div className={styles.example}>
+                <input />
+            </div>
+        );
     }
 };
 

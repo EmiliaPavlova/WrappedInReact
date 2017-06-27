@@ -22,5 +22,15 @@
 }
 
 .k-input {
+  width: 80%;
+  padding: 10px;
   margin: 30px;
+  border: 1px solid #e6e6e6;
+  outline: 0;
+  line-height: 1.2;
+}
+
+.k-input:hover,
+.k-input:focus {
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.08), 0 3px 6px rgba(0,0,0,.08);
 }

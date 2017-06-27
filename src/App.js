@@ -15,8 +15,8 @@ class App extends Component {
                 format: 'c0', //'c', 'p0', 'c0'
                 placeholder: 'Select A Value',
                 min: 0,
-                max: 10,
-                step: 0.02
+                max: 30,
+                step: 1
               }}
               methods={{
                 value:[]
