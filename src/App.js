@@ -22,8 +22,8 @@ class App extends Component {
                 value:[]
               }}
               events={{
-                change: function() {console.log('value changed')},
-                spin: function() {console.log('number spinned')}
+                change: () => {},
+                spin: () => {}
               }}
               triggerEvents={['onFocus']}
               unbindEvents={['select']} />
