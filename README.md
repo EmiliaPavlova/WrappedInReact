@@ -12,7 +12,7 @@
 
 ### `Numeric TextBox`
 
-Wrapped `Kendo Numeric TextBox` widget that can be originally found on [the Kendo UI® website](http://demos.telerik.com/kendo-ui/numerictextbox/index)
+Wrapped **Kendo Numeric TextBox** widget that can be originally found on [the Kendo UI® website](http://demos.telerik.com/kendo-ui/numerictextbox/index)
 
 ## Available Scripts
 
