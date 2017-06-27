@@ -84,12 +84,9 @@ class NumericTextBox extends Component {
     }
 
     render() {
-        debugger;
-        return (
-            <div className={styles.example}>
-                <input />
-            </div>
-        );
+        return (this.props.children
+            ? <div className={styles.example}>{this.props.children}</div>
+            : <input />);
     }
 };
 
